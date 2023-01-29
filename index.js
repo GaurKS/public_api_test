@@ -1,9 +1,7 @@
 document.getElementById('getApi').addEventListener('click', getApi);
 document.getElementById('getApi').addEventListener('onkeydown', getApi);
-const apiId = 'e2d2fe2c76f848a2b1570500222607';
 
 function getApi() {
-
   ip = encodeURI(document.getElementById('ipAddress').value);
   console.log("IP address :", ip);
 
